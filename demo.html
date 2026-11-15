@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Demonstration | Echoes of Exploration</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #f4f2ff;
+      background: #090d1b;
+      display: flex;
+      flex-direction: column;
+    }
+    header { text-align: center; padding: 28px 18px 18px; }
+    h1 { margin: 0 0 8px; font-size: clamp(1.6rem, 4vw, 2.4rem); }
+    p { color: #c5c8dc; margin: 0; line-height: 1.5; }
+    main { width: min(1100px, 94%); margin: 0 auto; flex: 1; }
+    .viewer {
+      width: 100%;
+      height: min(72vh, 720px);
+      min-height: 420px;
+      border: 1px solid #343b59;
+      border-radius: 14px;
+      overflow: hidden;
+      background: #151b30;
+    }
+    iframe { width: 100%; height: 100%; border: 0; }
+    .actions { text-align: center; padding: 18px 12px 28px; }
+    a {
+      display: inline-block;
+      margin: 6px;
+      padding: 12px 18px;
+      border-radius: 8px;
+      background: #8b7cff;
+      color: #090d1b;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    a.secondary { background: transparent; color: #f4f2ff; border: 1px solid #737b9e; }
+    footer { text-align: center; padding: 14px; color: #9299b8; font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Echoes of Exploration</h1>
+    <p>Project Demonstration · Cosmic Time Capsules</p>
+  </header>
+  <main>
+    <div class="viewer">
+      <iframe
+        src="https://view.officeapps.live.com/op/embed.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Faleenachinnuanil123-max%2Fechoes-of-exploration%2Frefs%2Fheads%2Fmain%2FEchoes_of_Exploration_Demo.pptx"
+        title="Echoes of Exploration project presentation"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="actions">
+      <a href="https://github.com/aleenachinnuanil123-max/echoes-of-exploration/blob/main/Echoes_of_Exploration_Demo.pptx" target="_blank" rel="noopener">View or download presentation</a>
+      <a class="secondary" href="https://aleenachinnuanil123-max.github.io/echoes-of-exploration/" target="_blank" rel="noopener">Visit project website</a>
+    </div>
+  </main>
+  <footer>Cosmic Time Capsules · NASA Space Apps Challenge 2026</footer>
+</body>
+</html>
